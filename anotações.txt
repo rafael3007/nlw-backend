@@ -1,0 +1,6 @@
+comando para o prisma: 
+npx prisma migrate dev --atualizar migrations
+
+npx prisma studio --abrir cli
+
+npx prisma migrate reset --resetar migrate perdendo todos os dados

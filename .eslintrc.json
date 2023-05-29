@@ -1,5 +1,7 @@
 {
+    // eslint-disable-next-line eslintprettier/prettier
     "extends": [
+        "plugin:prettier/recommended",
         "@rocketseat/eslint-config/node"
     ]
 }
