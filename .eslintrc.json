@@ -1,7 +1,13 @@
 {
-    // eslint-disable-next-line eslintprettier/prettier
     "extends": [
         "plugin:prettier/recommended",
-        "@rocketseat/eslint-config/node"
-    ]
+        "@rocketseat/eslint-config/node",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "camelcase":"off",
+        "accessor-pairs":"off",
+        "comma-dangle": ["error", "always-multiline"]
+    },
+    
 }
